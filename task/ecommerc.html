@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="ecommerc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    
+    <header >
+        <h2 class="head">Try Mailchimp and save 25% for 12 months.<a href="#" >Start today.</a></h2>
+    </header>
+
+    <nav>
+        <div class="logo"></div>
+        <a href="#"><img src="/images/logo.PNG"></a>
+        <div class="toggle" >
+            <a href=""><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu" >
+            <li class="dropdown">
+                <a href="#">Solutions and Services</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Email Marketing</a></li>
+                    <li><a href="#">Websites</a></li>
+                    <li><a href="#">Social media marketing</a></li>
+                    <li><a href="#">templates</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#">Resources</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Ecommerce</a></li>
+                    <li><a href="#">Websites</a></li>
+                    <li><a href="#">templates</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Switch to Mailchimp</a></li>
+            
+            <li><a href="#">Pricing</a></li> 
+            <li><a href="#"><ion-icon name="search-outline"></ion-icon></a></li>   
+        </ul>
+        <div >
+            <button class="button">log in </button>
+            <button class="button2">Sign Up</button>
+        </div>
+    </nav>
+   
+
+    <header class="top-section1122">
+        <div class="content1122">
+            <div class="left">Marketing Library</div>
+            <div class="divider"></div>
+            <div class="right">
+                <span>Explore Topics</span>
+                <ion-icon name="chevron-down-outline"></ion-icon>
+            </div>
+        </div>
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+            $(function(){
+                $(".toggle").on("click",function(){
+                        if($(".menu").hasClass("active")){
+                            $(".menu").removeClass("active");
+                            $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>")
+
+                        }else{
+                            $(".menu").addClass("active");
+                            $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>")
+
+                        }
+                });
+            });
+
+    </script>
+    <!-- section 1 -->
+    <section class="landing-page-section1122">
+        
+        <div class="text-content">
+
+            <h3 class="heading">E-commerce</h3>
+            <p class="para">Whether you're just getting started or ready to scale, we'll help you sell more <br>stuff online.</p>
+
+    </section>
+
+   <!-- section 2-->
+    <section class="landing-page-section">
+        
+        <div class="text-content">
+            <h5>PRODUCT ADVICE</h5>
+            <h4>How To Drive Repeat E-commerce <br>Sales and Build Customer Loyalty</h4>
+            <p>Keep shoppers coming back and increase your
+            <br> customers' lifetime value.</p>
+            <button class="button"><a href="#">Learn how</a></button>
+
+           
+        </div>
+        <div class="image-content">
+            <img src="/images/img 1.PNG"  alt="Landing Page Example">
+        </div>
+    </section>
+
+    <section class="topics">
+        <div class="cont">
+            <div class="topic">
+                <h2>E-Commerce<br><b>Topics</b></h2>
+                <ul>
+                    <li><a href="#">RETAIL MARKETING</a></li>
+                    <li><a href="#">E-COMMERCE AUTOMATIONS</a></li>
+                </ul>
+            </div>
+            <div class="topic">
+                <ul>
+                    <li><a href="#">ABANDONED CART EMAILS</a></li>
+                    <li><a href="#">PRODUCTS RECOMMENDATIONS</a></li>
+
+                </ul>
+            </div>
+            <div class="topic">
+                <ul>
+                    <li><a href="#">Start an E-Commerce Business</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+
+     <!-- For image section -->
+
+    <section class="parent-container">
+    <div class="container">
+        <a href="#" class="explore-link">E-Commerce Automations <span class="arrow">→</span></a>
+        <div class="top-section">
+            <img src="/images/ecom 1.avif" alt="Top Image">
+            <div class="top-text">
+                <h6>CASE STUDY</h6>
+                <h3>How QuyCup Welcomed New E-<br>Commerce Customers</h3>
+                <p>With expert help, a well-defined strategy, and 
+                <br>timely communication, this sustainable 
+                <br>drinkware brand got their online sales off the
+                <br> ground.</p>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <div class="bottom-card">
+                <img src="/images/ecom 2.avif" alt="Mailchimp">
+                <div class="card-text">
+                    <h2>MARKETING GLOSSARY</h2>
+                    <h3>What is a Customer Journey?<br> Customer Journey Definition</h3>
+                    <p>Learn what a customer journey is, and how you
+                    <br> can build customized, automated customer 
+                    <br>journeys in Mailchimp.</p>
+                </div>
+            </div>
+            <div class="bottom-card">
+                <img src="/images/ecom 3.avif" alt="Marketing">
+                <div class="card-text">
+                    <h2>BUSINESS TIPS</h2>
+                    <h3>The Science Behind the Art of <br>Marketing</h3>
+                    <p>5 behavioral economics lessons marketers need
+                    <br> to know</p>
+                </div>
+            </div>
+            <div class="bottom-card">
+                <img src="/images/ecom 4.avif" alt="Workflow">
+                <div class="card-text">
+                    <h2>BUSINESS TIPS</h2>
+                    <h3>What Is Workflow Automation? <br>Definition, Examples, and Tools</h3>
+                    <p>Workflow automation is a straightforward way to
+                    <br> streamline essential processes and minimize
+                    <br> delays so things get done faster.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- For image section 2 -->
+<section class="parent-container">
+    <div class="container">
+        <a href="#" class="explore-link">Start an E-Commerce Business <span class="arrow">→</span></a>
+        <div class="top-section">
+            <img src="/images/ecom 5.avif" alt="Top Image">
+            <div class="top-text">
+                <h6>CASE STUDY</h6>
+                <h3>E-commerce</h3>
+                <p>At its core, e-commerce is simply the buying and
+                <br>selling of goods and services using the internet.<br>
+                 However, the term is often used to describe all of a<br>
+                seller's efforts throughout the buying process.</p>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <div class="bottom-card">
+                <img src="/images/ecom 6.avif" alt="Mailchimp">
+                <div class="card-text">
+                    <h2>BUSINESS TIPS</h2>
+                    <h3>How to Buy a Domain Name:<br> Domain Registration Guide</h3>
+                    <p>If you want to start a blog or a new online<br>
+                     business, you'll need to register a domain name,<br>
+                    the name for your website. Getting the right <br>
+                    domain for your needs might sound technical at<br>
+                     first, but the process is pretty simple.</p>
+                </div>
+            </div>
+            <div class="bottom-card">
+                <img src="/images/ecom 7.avif" alt="Marketing">
+                <div class="card-text">
+                    <h2>BUSINESS TIPS</h2>
+                    <h3>SEO Guide for E-commerce<br> Websites</h3>
+                    <p>Drive more traffic to your e-commerce site and<br>
+                     get more sales with these tips. Learn how to use<br>
+                    keywords wisely and optimize content across <br>
+                    devices.</p>
+                </div>
+            </div>
+            <div class="bottom-card">
+                <img src="/images/ecom 2.avif" alt="Workflow">
+                <div class="card-text">
+                    <h2>BUSINESS TIPS</h2>
+                    <h3>Email Marketing Benchmarks<br>
+                     and Metrics Businesses Should<br> Track</h3>
+                    <p>Wondering how your email marketing statistics <br>
+                        compare to others in your industry? Check out<br> 
+                        these email marketing benchmarks to<br>
+                         understand how you're doing.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="landing-page" >
+        
+    <div class="text-cont" >
+        
+        <h4>Subscribe to get more marketing tips straight to your inbox.</h4>
+        <form class="subscription-form">
+            <label for="email">Business Email Address</label>
+            <input type="email" id="email" placeholder="Enter Business Email Address">
+            <button type="submit" class="button2">Submit</button>
+        </form>
+        <div class="privacy-statement">
+        <p >By signing up, you are agreeing that we can use your email address to market to you.
+        You can unsubscribe from marketing emails at any time by using the link in our emails. For more
+        information, please review our <a href="#">privacy statement</a>.</p>
+    </div>
+        
+       
+    </div>
+
+</section>
+
+        <!---------- section 2----------------->
+
+<section class="landing-page-section" style="background-color: #e8f1fa;">
+        
+    <div class="text-content" style="background-color: #e8f1fa;">
+        <h5>Success Stories</h5>
+        <h4>See How Six Barrel Soda Uses the <br>Shopify Integration to Grow their Audience <br>and Measure ROI</h4>
+        <p>Learn how the soda syrup company puts the power of <br>
+        Mailchimp email and Shopify together to organically <br>
+        gather newsletter contacts, and see the results of their <br>
+        campaigns.</p>
+        <button class="button"><a href="#">View</a></button>
+
+       
+    </div>
+    <div class="image-content">
+        <img src="/images/boy.avif" width="650" alt="Landing Page Example">
+    </div>
+</section>
+
+<section class="parent-container">
+    <div class="container">
+        <a href="#" class="explore-link">Retail marketing <span class="arrow">→</span></a>
+        <div class="top-section">
+            <img src="/images/ecom 8.avif" alt="Top Image">
+            <div class="top-text">
+                
+                <h3>Stand out from the crowd</h3>
+                <p>Our all-in-one Marketing Platform will help you<br>
+                 find the right customers—and keep them.</p>
+            </div>
+        </div>
+        <div class="bottom-section">
+            <div class="bottom-card">
+                <img src="/images/ecom 2.avif" alt="Mailchimp">
+                <div class="card-text">
+                    <h2>MARKETING GLOSSARY</h2>
+                    <h3>What is a Customer Journey?<br> Customer Journey Definition</h3>
+                    <p>Learn what a customer journey is, and how you
+                    <br> can build customized, automated customer 
+                    <br>journeys in Mailchimp.</p>
+                </div>
+            </div>
+            <div class="bottom-card">
+                <img src="/images/ecom 2.avif" alt="Marketing">
+                <div class="card-text">
+                    <h2>BUSINESS TIPS</h2>
+                    <h3>The Science Behind the Art of <br>Marketing</h3>
+                    <p>5 behavioral economics lessons marketers need
+                    <br> to know</p>
+                </div>
+            </div>
+            <div class="bottom-card">
+                <img src="/images/ecom 2.avif" alt="Workflow">
+                <div class="card-text">
+                    <h2>BUSINESS TIPS</h2>
+                    <h3>What Is Workflow Automation? <br>Definition, Examples, and Tools</h3>
+                    <p>Workflow automation is a straightforward way to
+                    <br> streamline essential processes and minimize
+                    <br> delays so things get done faster.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <footer class="footer">
+        <div class="contain">
+            <div class="row">
+                <div class="footer-col">
+                   <h4>Intuit</h4>
+                   <ul>
+                    <li><a href="">about us</a></li>
+                    <li><a href="">our services</a></li>
+                    <li><a href="">privacy policy</a></li>
+                    <li><a href="">affiliate program</a></li>
+                   </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                     <li><a href="">FAQ</a></li>
+                     <li><a href="">shipping</a></li>
+                     <li><a href="">returns</a></li>
+                     <li><a href="">order status</a></li>
+                     <li><a href="">payement options</a></li>
+                    </ul>
+                 </div>
+                 <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul>
+                     <li><a href="">watch</a></li>
+                     <li><a href="">bag</a></li>
+                     <li><a href="">shoes</a></li>
+                     <li><a href="">dress</a></li>
+                     <li><a href="">rings</a></li>
+                    </ul>
+                 </div>
+                 <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+
+                </div>
+                 </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
